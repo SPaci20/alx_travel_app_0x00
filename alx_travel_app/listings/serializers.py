@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import Listing, Booking
 
+# Serializers for the listings app
 class ListingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Listing
